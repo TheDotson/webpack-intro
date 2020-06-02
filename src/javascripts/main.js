@@ -1,3 +1,6 @@
 import '../styles/main.scss';
+import 'bootstrap';
 
-console.error('here is the thing');
+$('#button').click(() => {
+  console.error.error('it worked');
+});
